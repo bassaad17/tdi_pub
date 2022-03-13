@@ -39,7 +39,7 @@ _TOOLS USED_: spaCy, NumPy, Pandas, Scikit-learn, Bag of Words, Bigrams
 
 Neural networks are all the rage in Machine Learning, and deservedly so for their high performance in tasks that spans far beyond image classification. In this project, a series of models are built to classify a series of images into one of ten classes `('airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck')`. For expediency, these images are pretty small (32×32×3). This can make classification a bit tricky--human performance is only about 94%. 
 
-![example image](https://github.com/bassaad17/tdi_pub/blob/main/dsf-miniprojects/images/5_tf_frog.jpg)
+![example image](https://github.com/bassaad17/tdi_pub/blob/main/dsf-miniprojects/images/5_tf_frog.png)
 
 The image above is a frog - now you see it! :)
 
