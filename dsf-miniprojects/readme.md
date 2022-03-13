@@ -1,5 +1,5 @@
 # The Data Incubator - Sample Data Science Miniprojects
-Here you'll find sample of miniprojects done as part of [The Data Incubator, Data Science Fellowship Program](https://www.thedataincubator.com/programs/data-science-fellowship/) that I participated in the Winter 2022 Full Time Online Cohort.
+Here you'll find a sample of miniprojects worked on as part of [The Data Incubator, Data Science Fellowship Program](https://www.thedataincubator.com/programs/data-science-fellowship/) that I participated in the Full-time, Online Winter 2022 Cohort.
 
 The Data Science Fellowship program is an immersive, 8 week, bootcamp-style shop that works with top talent (~2% acceptance rate) wanting to transition roles as professional Data Scientists. Typically fellows come from academia with advanced graduate degrees, however the program is also geared towards working professionals wanting to enhance their data science skillset.
 
@@ -9,7 +9,7 @@ Out of considerations for present and future Fellows **only limited and edited**
 
 ## (1) Data Wrangling & Webscraping - Examining The New York Social Graph
 
-<a href="https://web.archive.org/web/20150913112557/http://www.newyorksocialdiary.com/">The New York Social Diary</a> provides a fascinating lens into New York's socially active and well-to-do individuals. As shown in <a href="https://web.archive.org/web/20150913112351/http://www.newyorksocialdiary.com/party-pictures/2014/holiday-dinners-and-doers">this report of a holiday party</a>, almost all the photos have annotated captions labeling names of the subjects. We can think of this as an implied social graph: there is a connection between two individuals if they appear in a picture together!
+<a href="https://web.archive.org/web/20150913112557/http://www.newyorksocialdiary.com/">The New York Social Diary</a> provides a fascinating lens into New York's socially active and well-to-do individuals. As shown in <a href="https://web.archive.org/web/20150913112351/http://www.newyorksocialdiary.com/party-pictures/2014/holiday-dinners-and-doers">this report of a holiday party</a>, almost all the photos have annotated captions with names of the subjects in them. We can think of this as an implied social graph: there is a connection between two individuals if they appear in a picture together!
 
 Methodologically this was performed using [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) by scraping website pages with photo captions up to a given date cut off. These captions were then parsed to return unique names, revealing a total of ~110,000 names in the social network. The structure of this social network was analyzed via node degrees and pagerank algorithm. From this popularity and influence was gaged, and strength of connections (spouse, friends, family) can be proxied. 
 
@@ -37,11 +37,11 @@ _TOOLS USED_: spaCy, NumPy, Pandas, Scikit-learn, Bag of Words, Bigrams
 
 ## (5) TensorFlow - Image Classification with Neural Networks
 
-Neural networks are all the rage in Machine Learning, and deservedly so for their high performance in tasks that spans far beyond image classification. In this project, a series of models are built to classify a series of images into one of ten classes `('airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck')`. For expediency, these images are pretty small (32×32×3). This can make classification a bit tricky--human performance is only about 94%. 
+Neural networks are all the rage in Machine Learning, and deservedly so for their high performance in tasks that spans far beyond image classification. In this project, a series of models are built to classify a series of images into one of ten classes `('airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck')`. For expediency, these images are pretty small (32×32×3). This can make classification a bit tricky---human performance is only about 94%. 
 
 ![example image](https://github.com/bassaad17/tdi_pub/blob/main/dsf-miniprojects/images/5_tf_frog.png)
 
-The image above is a frog - now you see it! :)
+The image above is a frog---now you see it! :)
 
 TensorFlow is a popular framework as it is an open-source software library for "dataflow" programming. Computations are expressed as stateful dataflow graphs. The name TensorFlow derives from the operations neural networks perform on multidimensional data arrays (AKA "tensors"). 
 
