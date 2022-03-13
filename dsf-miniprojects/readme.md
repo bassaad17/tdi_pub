@@ -1,7 +1,7 @@
 # The Data Incubator - Sample Data Science Miniprojects
-Here you'll find a sample of miniprojects worked on as part of [The Data Incubator, Data Science Fellowship Program](https://www.thedataincubator.com/programs/data-science-fellowship/) that I participated in the Full-time, Online Winter 2022 Cohort.
+Here you'll find a sample of 5 out of 8 miniprojects worked on as part of [The Data Incubator, Data Science Fellowship Program](https://www.thedataincubator.com/programs/data-science-fellowship/) that I participated in the Full-time Online Winter 2022 Cohort.
 
-The Data Science Fellowship program is an immersive 8-week bootcamp-style shop that works with top talent (~2% acceptance rate) wanting to transition roles as professional Data Scientists. Typically fellows come from academia with advanced graduate degrees, however the program is also geared towards working professionals wanting to enhance their data science skillset.
+The Data Science Fellowship program is an immersive 8-week bootcamp-style shop that works with top talent `(~2% acceptance rate)` wanting to transition roles as professional Data Scientists. Typically fellows come from academia with advanced graduate degrees, however the program is also geared towards working professionals wanting to enhance their data science skillset.
 
 The miniprojects were done in **Jupyter / IPython Notebooks** using the Digital Ocean Cloud Computing platform running on Linux.
 
